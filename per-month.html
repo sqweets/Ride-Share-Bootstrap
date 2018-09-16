@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rides per Month</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <style>
+  body {
+     background-color: #f2f4f7 !important;
+  }
+  </style>
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <a class="navbar-brand" href="../W12-Homework-dashboard/index.html">LA Ride Share</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="dropdown nav-item">
+        <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Plots
+        <span class="caret"></span></a>
+        <div class="dropdown-menu">
+          <a href="../W12-Homework-dashboard/per-month.html" class="dropdown-item">Rides per Month</a>
+          <a href="../W12-Homework-dashboard/day-of-week.html" class="dropdown-item">Rides per Day of the Week</a>
+          <a href="../W12-Homework-dashboard/time-of-day.html" class="dropdown-item">Rides per Time of Day</a>
+          <a href="../W12-Homework-dashboard/payment-plot.html" class="dropdown-item">Payment Types per Month</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../W12-Homework-dashboard/comparison.html">Comparison</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../W12-Homework-dashboard/data.html">Data</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top:30px; ">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="card mb-3">
+        <h3 class="card-header">Rides per Month</h3>
+        <div class="card-body">
+        </div>
+        <img style="width: 100%; display: block;" src="images/rides_per_month_all_data_smoke.png" alt="Card image">
+        <div class="card-body">
+          <p class="card-text">Total Rides per Month:  This plot gives a general look at the total rides occurring throughout the year.  It's not surprising that ridership drops off in the winter months.  What is interesting in this plot is that the ridership drops off significantly more in the winter of 2016 than in the winter of 2017.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 visual">
+      <div class="card mb-3">
+        <h3 class="card-header">Visualizations</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <a href="../W12-Homework-dashboard/per-month.html"><img src="images/rides_per_month_all_data_smoke.png" width="100%"></a>
+          </div>
+          <div class="col-md-6">
+            <a href="../W12-Homework-dashboard/day-of-week.html"><img src="images/rides_per_day_of_week_all_data_smoke.png" width="100%" style="padding-top: 10px;"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <a href="../W12-Homework-dashboard/time-of-day.html"><img src="images/rides_per_time_of_day_all_data_smoke.png" width="100%"></a>
+          </div>
+          <div class="col-md-6">
+            <a href="../W12-Homework-dashboard/payment-plot.html"><img src="images/payment_types_per_month_all_data_smoke.png" width="100%"></a>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </div>
+</div>
+
+<div class="footer bg-dark">
+      <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://ellenhendricks.net/" style="color:#fff;">ellenhendricks.net</a>
+    </div>
+    <!-- Copyright -->
+</div>
+
+</body>
+</html>
